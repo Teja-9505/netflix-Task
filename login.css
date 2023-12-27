@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #333;
+    background-image: url(assets/background/backgrounglogin.jpg);
+    /* <img src="https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt=""> */
+}
+body ::before{
+    /* content: ''; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 50px;
+    /* background-color: black; */
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.wrapper h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.wrapper form{
+    margin: 25px 0 65px;
+}
+.wrapper input{
+    height: 40px;
+    width: 100%;
+    background-color: #444;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin: 2% 1%;
+}
+.wrapper input::placeholder{
+    color: #c5c3c3;
+    left: 20px;
+    top: 15px;
+    font-size: 1rem;
+    padding: 10% 4%;
+}
+.wrapper form button{
+    width: 100%;
+    background-color: #e50914;
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 40px 0px 0px 0px;
+}
+/* .wrapper form button:hover{
+    background-color: ;
+} */
+.wrapper form .forms-help{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper form .forms-help .Checkbox{
+    width: 200px;
+    margin-top: 10px;
+}
+.wrapper form .forms-help .Checkbox input{
+    height: 15px;
+    width: 15px;
+    /* margin: 7px 0px 0px 0px; */
+    margin-top: 7px;
+}
+.wrapper form .forms-help .Checkbox label{
+    color: #aaa;
+}
+.wrapper form .forms-help a{
+    margin-top: 17px;
+    text-decoration: none;
+    color: #aaa;
+}
+.down label{
+    color: #aaa;
+}
+.down a{
+    text-decoration: none;
+    color: #fff;
+}
